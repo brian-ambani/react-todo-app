@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div>
         <Nav />
-        <Todo></Todo>
+        <Todo/>
     </div>
   )
 }
