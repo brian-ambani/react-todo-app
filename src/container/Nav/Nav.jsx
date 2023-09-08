@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './Nav.css'
 
 const Nav = () => {
   return (
-    <div>
+    <nav>
         <ul>
-            <li>All Tasks</li>
-            <li>Incomplete</li>
-            <li>Completed</li>
+            <li><button>All Tasks</button></li>
+            <li><button>Incomplete</button></li>
+            <li><button>Completed</button></li>
+            <li><button>Notes</button></li>
         </ul>
-    </div>
+    </nav>
   )
 }
 

@@ -1,0 +1,17 @@
+nav {
+    /* background-color: red; */
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
